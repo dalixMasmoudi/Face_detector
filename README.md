@@ -17,16 +17,14 @@ This ready to deploy face detection system is designed to compare a person's fac
 
 To use the face detection system:
 
-1. **Setup**: Install the required dependencies such as OpenCV, dlib, or any other relevant libraries.
+1. **Setup**: Install the required dependencies such as OpenCV and numpy.
 
-2. **Database Creation**: Create a database of known faces by collecting images of individuals and extracting features from their faces. Store these features along with the corresponding identities in the database.
+2. **Database Creation**: Create a database of known faces by collecting images of individuals and paste all of your database in the images folder.
 
-3. **Face Detection**: Provide an input image containing a face to the system.
+3. **Face Detection**: Run run_video.py and it will access your camea.
 
 4. **Processing**: The system detects the face in the input image, extracts features, and compares them against the database.
 
 5. **Output**: If a match is found, the system outputs the identity of the recognized person. If no match is found, the system outputs "Unknown".
 
-## Example
 
-Run 
