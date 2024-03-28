@@ -21,7 +21,7 @@ To use the face detection system:
 
 2. **Database Creation**: Create a database of known faces by collecting images of individuals and paste all of your database in the images folder.
 
-3. **Face Detection**: Run run_video.py and it will access your camea.
+3. **Face Detection**: Run main_video.py and it will access your camea.
 
 4. **Processing**: The system detects the face in the input image, extracts features, and compares them against the database.
 
