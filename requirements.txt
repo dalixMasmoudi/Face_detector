@@ -1,0 +1,8 @@
+# To install cmake
+cmake
+
+# To install OpenCV version 4.7.0
+opencv-python==4.7.0.72
+
+# To install face_recognition (which requires cmake)
+face-recognition
