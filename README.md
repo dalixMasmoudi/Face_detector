@@ -21,13 +21,13 @@ To use the face detection system:
 
    ```bash
    pip install requirements.txt
-```
+   ```
 3. **Database Creation**: Create a database of known faces by collecting images of individuals and paste all of your database in the images folder.
 
 4. **Face Detection**: Run main_video.py and it will access your camea.
-```bash
-python3  main_video.py
-```
+   ```bash
+   python3  main_video.py
+   ```
 6. **Processing**: The system detects the face in the input image, extracts features, and compares them against the database.
 
 7. **Output**: If a match is found, the system outputs the identity of the recognized person. If no match is found, the system outputs "Unknown".
